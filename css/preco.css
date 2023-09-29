@@ -1,0 +1,129 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*------------*/
+
+div.topo{
+    text-align: right;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    position: relative;
+    background-color: #2f86d6
+}
+
+.topo img{
+    width: 5%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.topo h1, .topo p{
+    position: absolute;
+    top: 15%;
+    left: 26%;
+}
+
+.topo p{
+    left: 26%;
+    top: 43%;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.topo a{
+    margin-right: 2%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a.topo{
+    margin-right: 15%;
+}
+
+/*------------------*/
+
+div.tabela{
+    text-align: center;
+    margin: 0 25%;
+    margin-top: 80px;
+}
+
+.tabela th{
+    background-color: #f2f2f1;
+}
+
+th.tabela{
+    padding: 2%;
+    background-color: white;
+}
+
+td.tabela{
+    background-color: #f2f2f1;
+    text-align: left;
+    padding: 2%;
+}
+
+td.bola{
+    color: blue;
+    
+}
+
+/*------------------*/
+
+div.rodape {
+    position: relative;
+    background-color: #307cd2;
+    padding: 8% 0;
+}
+
+.rodape img {
+    width: 5%;
+    position: absolute;
+    top: 28%;
+    left: 43%   
+}
+
+.rodape h1, .rodape p {
+    position: absolute;
+    left: 49%;
+}
+
+.rodape h1 {
+    top: 25%;
+    font-size: 1.7vw;
+}
+
+.rodape p {
+    top: 42%;
+    color: white;
+    font-size: 0.9vw;
+}
+
+p.rodape {
+    top: 60%;
+    left: 38%;
+}
+
+/*------------------*/
+
+
+
+.creditos p {
+    text-align: center;
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+.creditos span{
+    color: #2f86d6;
+}
+
+th.vazio{
+    background-color: white;
+}
